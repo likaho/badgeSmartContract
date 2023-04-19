@@ -1,0 +1,25 @@
+{
+  "name": "Badge NFT",
+  "version": "1.0.0",
+  "description": "Badge NFT based on ERC721",
+  "directories": {
+    "test": "test"
+  },
+  "author": "li_kaho@hotmail.com",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx hardhat test --no-compile",
+    "ganache": "ganache --chain.chainId 1338 -p 9002 -a 20 -e 10000 -m 'egg cannon figure ketchup fall issue never share online shiver chief album'"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.13.1",
+    "@aaronjan98/solidity-prettier-conf": "^1.0.2",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.24"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2",
+    "dotenv": "^16.0.3"
+  }
+}
